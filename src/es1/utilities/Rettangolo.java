@@ -1,4 +1,4 @@
-package es1;
+package es1.utilities;
 
 public class Rettangolo {
 
@@ -13,11 +13,11 @@ public class Rettangolo {
     }
 
 //  METODI
-    public static double perimeter( double b, double h){
-        return (b + h) / 2;
+    public double perimeter(){
+        return (base + height) / 2;
     }
 
-    public static double area( double b, double h){
-        return b * h;
+    public double area(){
+        return base * height;
     }
 }
